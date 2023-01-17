@@ -4,10 +4,10 @@
     "slug": "OnlyPaws",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/paw.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/paw.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -22,12 +22,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/paw.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.indickme.OnlyPaws"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/paw.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7443e934-40f7-48d2-af37-496717ceb3f3"
+      }
     }
   }
 }
